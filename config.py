@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 777777))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 6885582933))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sprizen_Bots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Sprizen_Bot_Support")
+SUPPORT_CHANNEL = getenv("https://t.me/Anime_by_Eternals")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/beerussupportchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,20 +78,20 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph//file/260b71399f061c1f0d9fb.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/bf65b3c8ac09a6e5c0440.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph//file/2d576fcf982ff294b0d5a.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph//file/77ba78d195c2e26de2d32.jpg"
-STATS_IMG_URL = "https://telegra.ph//file/e9abb075cdc98091fd73b.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph//file/a64b601cce0f45a192ce1.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph//file/37f24422832e727ebf478.jpg"
-STREAM_IMG_URL = "https://telegra.ph//file/7c896988bd3d0b91b8e46.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph//file/1df85370be3f13663a2d9.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph//file/38124ca6dea236fb7e4ef.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/adf5178b6e62a11b2c402.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/9a258a9e3c9c3b6f61169.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/a8202aad28d3eab89ce67.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/6d03c4e1793efac2bb48e.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/9d8acf1582a27adc9982b.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/07d8fd086c6bbdf1d9338.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/941d949988c28982c15f1.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/b65b1f9ab17185d34b626.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/fe2d2876f1d206297025e.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/07d8fd086c6bbdf1d9338.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/59d4eb516235811aee3d6.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/b3b2e9a46166f3ee1a5cf.jpg"
 
 
