@@ -92,6 +92,7 @@ SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/6d03c4e1793efac2bb48e.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/9d8acf1582a27adc9982b.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/9d8acf1582a27adc9982b.jpg"
 
+
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
