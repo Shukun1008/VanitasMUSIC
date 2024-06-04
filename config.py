@@ -77,9 +77,11 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL, "https://telegra.ph/file/184a4ad6c5fc406ae2667.jpg"
+START_IMG_URL = getenv(
+    "START_IMG_URL", "https://telegra.ph/file/184a4ad6c5fc406ae2667.jpg"
 )
-PING_IMG_URL, "https://telegra.ph/file/59d4eb516235811aee3d6.jpg"
+PING_IMG_URL = getenv(
+    "PING_IMG_URL", "https://telegra.ph/file/59d4eb516235811aee3d6.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/fe2d2876f1d206297025e.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/60f77d93e2d698a8508fb.jpg"
