@@ -4,12 +4,12 @@ from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
 
-load_dotenv()
+
 from telegram.ext import Updater, MessageHandler, Filters
 from google.cloud import vision
 import imagehash
 from PIL import Image
-
+load_dotenv()
 def detect_copyright(file_path):
     # Using Google Vision API
     client = vision.ImageAnnotatorClient()
